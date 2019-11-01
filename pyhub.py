@@ -80,7 +80,7 @@ while True:
 
 conn.close()
 #closing database connection.
-if(connection):
+if(psql_con):
     cursor.close()
     psql_con.close()
     print("PostgreSQL connection is closed")
